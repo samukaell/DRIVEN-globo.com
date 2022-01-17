@@ -1,0 +1,196 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.logo img{
+    width: 171px;
+}
+
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    
+    font-size: 19px;
+    font-family: "Encode Sans", sans-serif;
+
+    margin-bottom: 40px;
+    width: 1250px;
+}
+
+.nav .g1 {
+    color: #c3170c;
+    text-decoration: none;
+}
+.nav .oGlobo {
+color: #1e4b9b;
+}
+.nav .valor {
+color: #006766;
+}
+.nav .ge {
+color: #07aa47;
+}
+.nav .cartola {
+color: #e3662b;
+}
+.nav .globoplay {
+color: #fb0735;
+}
+.nav .dproz {
+color: #ff75bb;
+}
+.nav .gshow {
+color: #ec7d00;
+}
+.nav .quem {
+color: #323333;
+}
+.nav .receitas {
+color: #a81d83;
+}
+
+.barra-central{
+    height: 845px;
+    width: 1px;
+    background-color: #EBEDEF;
+}
+
+.barra-deitada{
+    height: 1px;
+    width: 624px;
+    background-color: #EBEDEF;
+    margin-bottom: 25px;
+}
+
+
+.noticas img{
+    margin-bottom: 10px;
+}
+
+.noticas h4{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.noticas h1{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.noticas h2{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.feed{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1250px;
+    margin-top: 150px;
+}
+
+.feedPrincipal {
+    font-family: "Encode Sans", sans-serif;
+    width: 624px;
+    
+}
+
+.feedPrincipal h5 {
+    color: #c4160c;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+        
+    margin-bottom: 29px;
+}
+
+.noticiasPrincipais{
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feedPrincipal .noticas{
+    width: 193px;
+    margin-bottom: 60px;
+}
+
+.feedPrincipal .noticas h4{
+    color:#C4170C;
+}
+.feedSecundario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Encode Sans", sans-serif;
+
+    width: 500px;
+}
+
+.feedSecundario .noticas{
+    margin-bottom: 50px;
+}
+
+.coluna1 h4{
+    color: #16AE54;
+}
+
+.coluna2 h4{
+    color:#EC8006;
+}
+
+.noticas{
+    width: 240px;
+}
+
+@media (max-width: 600px){
+    
+    .nav{
+        width: 100%;
+    }
+    .nav .oGlobo{
+        display: none;
+    }
+    .nav .valor{
+        display: none;
+    }
+    .nav .cartola{
+        display: none;
+    }
+    .nav .globoplay{
+        display: none;
+    }
+    .nav .dproz{
+        display: none;
+    }
+
+    .feed{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .feedPrincipal{
+        width: 350px;
+        align-items: center;
+    }
+}
